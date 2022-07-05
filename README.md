@@ -9,7 +9,7 @@ Um projeto utilizando DENO para calcular a Alíquota Efetiva de empresas do Simp
 - [ ] Anexo V
 
 ## Recursos a serem implementados
-- [ ] Sleep no fim do script para que aplicativo compilado continue aberto por um tempo
+- [x] Sleep no fim do script para que aplicativo compilado continue aberto por um tempo
 - [x] Input de Receita Bruta Total (ultimos 12 meses)
   - [ ] Validação de valor (rejeitar números negativos)
   - [ ] Sanitização de valor mascarado (formato BRL)

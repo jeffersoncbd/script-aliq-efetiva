@@ -1,10 +1,12 @@
 import { ImportAttachments } from './_domain/entities/ImportAttachments/Entity.ts'
 import { AskTheUserForInformation } from './_domain/entities/AskTheUserForInformation/Entity.ts'
+import { Sleep } from './_domain/entities/Sleep/Entity.ts'
 import { AskAttachmentUseCase } from './_domain/useCases/AskAttachment/UseCase.ts'
 
 const importer = new ImportAttachments()
 const asker = new AskTheUserForInformation()
 const attachmentAsker = new AskAttachmentUseCase(asker)
+const sleep = new Sleep()
 
 const attachments = await importer.import()
 const RBT12 = Number(await asker.ask('RBT dos ultimos 12 meses'))
@@ -22,3 +24,5 @@ if (selectedAttachment !== null) {
 } else {
   console.log('Anexo não cadastrado')
 }
+
+await sleep.for(120)
