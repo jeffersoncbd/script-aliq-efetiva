@@ -1,5 +1,8 @@
-# script-aliq-efetiva
+# ScriptAliqEfetiva
 Um projeto utilizando DENO para calcular a Alíquota Efetiva de empresas do Simples Nacional
+
+# Instalação
+Baixe [aqui](https://github.com/jeffersoncbd/script-aliq-efetiva/releases/latest) de acordo com seu sistema operacional (Somente para windows no momento).
 
 ## Tabelas indexadas
 - [x] Anexo I
@@ -17,4 +20,3 @@ Um projeto utilizando DENO para calcular a Alíquota Efetiva de empresas do Simp
   - [x] Validação de valor (aceitar comente numeros romanos de 1 a 5)
   - [ ] Converter letras maiúsculas para minúsculas
 - [ ] Label para resultado
-  
