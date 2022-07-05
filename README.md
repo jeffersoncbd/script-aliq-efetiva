@@ -16,4 +16,5 @@ Um projeto utilizando DENO para calcular a Alíquota Efetiva de empresas do Simp
 - [x] Input de anexo (I, II, III, IV, V)
   - [x] Validação de valor (aceitar comente numeros romanos de 1 a 5)
   - [ ] Converter letras maiúsculas para minúsculas
+- [ ] Label para resultado
   
