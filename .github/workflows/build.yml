@@ -20,7 +20,7 @@ jobs:
         with:
           deno-version: ${{ matrix.deno-version }}
       - name: 'Run deno compiler'
-        run: deno compile --allow-read --target x86_64-pc-windows-msvc --output win-x86_64 src/application.ts
+        run: deno compile --target x86_64-pc-windows-msvc --output win-x86_64 src/application.ts
       - name: 'Upload Compiled Artifacts'
         uses: actions/upload-artifact@v3
         with:
