@@ -37,7 +37,7 @@ export default {
     {
       RBT: { min: 0, max: 180000 },
       aliq: 0.045,
-      parcDed: 0,
+      parcDed: 0
     },
     {
       RBT: { min: 180000.01, max: 360000 },

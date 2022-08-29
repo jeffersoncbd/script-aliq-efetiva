@@ -10,7 +10,7 @@ export class AskAttachmentUseCase {
     const attachment = await this.asker.ask('Anexo do SN') as Attachments
     if(!attachments.includes(attachment)) {
       console.log(attachments.join(' - '))
-      await this.ask()
+      return await this.ask()
     }
     return attachment
   }
