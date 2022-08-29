@@ -8,7 +8,7 @@ Baixe [aqui](https://github.com/jeffersoncbd/script-aliq-efetiva/releases/latest
 - [x] Anexo I
 - [ ] Anexo II
 - [ ] Anexo III
-- [ ] Anexo IV
+- [x] Anexo IV
 - [ ] Anexo V
 
 ## Recursos a serem implementados
